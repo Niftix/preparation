@@ -2,18 +2,18 @@
 
 int main(void)
 {
-	int n = 11;
+	int n = 10;
 	int i = 0;
-	while(i < n)
+	while(i < n + 1)
 	{
-		printf("%d\n", i);
 		if(i % 2 == 0)
 		{
-			i += 2;
+		printf("%d\n",i);
+		i++;
 		}
 		else
 		{
-			return 0;
+			i++;
 		}
 	}
 	return 0;
