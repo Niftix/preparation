@@ -3,6 +3,6 @@
 int main()
 {
 	char prenom[20] = "Mathieu";
-	printf("Hello, %s", prenom);
+	printf(" %s est pret pour la piscine", prenom);
 	return 0;
 }
