@@ -7,11 +7,11 @@ int main()
 	int impair =1;
 	if(nombre % 2 == 0)	
 	{
-		printf("Pair");
+		printf("Pair\n");
 	}
 	else(nombre % 2 != 0);
 	{
-		printf("Impair");
+		printf("Impair\n");
 	}
 	return 0;
 }
