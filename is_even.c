@@ -8,12 +8,13 @@ int main(void)
 	int resultat = is_even(nombre);
 	if(resultat == 1)
 	{
-		printf("Pair");
+		printf("Pair\n");
 	}
 	else
 	{
-		printf("Impair");
+		printf("Impair\n");
 	}
+	return 0;
 }
 
 int is_even(int nombre)
