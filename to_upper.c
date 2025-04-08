@@ -4,7 +4,7 @@ void to_upper(char* chaine);
 
 int main(void)
 {
-	char chaine[] = "hello";
+	char chaine[] = "hello123";
 	to_upper(chaine);
 	printf("%s\n",chaine);
 	return 0;
