@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void ft_reverse_alphabet(void);
+void ft_reverse_alphabet(void)
 {
-	write(1,"zxyxwvutsrqpomnlkjihgfedcba",26);
+	write(1,"zxywvutsrqpomnlkjihgfedcba",26);
 }
