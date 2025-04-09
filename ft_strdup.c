@@ -39,6 +39,6 @@ char *ft_strdup(char *src)
 		new[i] = src[i];
 		i++;
 	}
-	src[i] = '\0';
+	new[i] = '\0';
 	return new;
 }
