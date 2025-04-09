@@ -7,7 +7,7 @@ int ft_strlen(char* src);
 
 int main(void)
 {
-	char src[] = "Hello\n";
+	char src[] = "Hello";
 	char *mallocchaine = ft_strdup(src);
 	printf("%s\n",mallocchaine);
 	free(mallocchaine);
@@ -28,7 +28,7 @@ int ft_strlen(char* src)
 char *ft_strdup(char *src)
 {
 	int taille = ft_strlen(src);
-	char *new = malloc(sizeof(char) * taille);
+	char *new = malloc(sizeof(char) * taille + 1);
 	if(!new)
 	{
 		return (NULL);
@@ -39,5 +39,6 @@ char *ft_strdup(char *src)
 		new[i] = src[i];
 		i++;
 	}
+	src[i] = '\0';
 	return new;
 }
