@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+/*
 void ft_print_comb2(void);
 void ft_print(char d1, char u1, char d2, char u2);
 
@@ -8,7 +8,7 @@ int main()
 	ft_print_comb2();
 	return 0;
 }
-
+*/
 void ft_print(char d1, char u1, char d2, char u2)
 {
 		write(1,&d1,1);
