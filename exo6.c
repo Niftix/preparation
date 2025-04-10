@@ -33,7 +33,10 @@ void ft_print_comb2(void)
 			{
 				for(u2 = '0'; u2 <= '9'; u2++)
 				{
-				ft_print(d1,u1,d2,u2);
+					if(d1 < u1 < d1 < d2)
+					{
+						ft_print(d1,u1,d2,u2);
+					}
 				}
 			}
 		}
