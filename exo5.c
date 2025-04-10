@@ -15,17 +15,17 @@ void ft_print_comb(void)
 
 for(c = '0'; c <= '9'; c++)
 {
-	for(d = '1'; d <= '9'; d++)
+	for(d = '0'; d <= '9'; d++)
 	{
 	
-		for(u = '2'; u <= '9'; u++)
+		for(u = '0'; u <= '9'; u++)
 		{
 			if(c < d && d < u && c != d && d!= u && c != u)
 			{
 			write(1,&c,1);
 			write(1,&d,1);
 			write(1,&u,1);
-			write(1,", ",1);
+			write(1,", ",2);
 			}
 		}
 	}
