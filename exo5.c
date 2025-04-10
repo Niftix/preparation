@@ -10,18 +10,23 @@ int main()
 
 void ft_print_comb(void)
 {
-	int c;
-	int d;
-	int u;
-for(c = 0; c <=7; c++)
+	char c,d,u;
+
+
+for(c = '0'; c <= '9'; c++)
 {
-	write(1,&c,1);
-	for(d = 1; d <= 8; d++)
+	for(d = '1'; d <= '9'; d++)
 	{
-		write(1,&d,1);
-		for(u = 2; u <= 9; u++)
+	
+		for(u = '2'; u <= '9'; u++)
 		{
+			if(c < d && d < u && c != d && d!= u && c != u)
+			{
+			write(1,&c,1);
+			write(1,&d,1);
 			write(1,&u,1);
+			write(1,", ",1);
+			}
 		}
 	}
 }
