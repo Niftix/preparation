@@ -16,20 +16,18 @@ void ft_rev_int_tab(int *tab, int size)
 	int tableau[4] = {210,410,5,9};
 	int i = 0;
 	int sizemove;
-	sizemove = size;
 	while(i <= size)
 	{
-		tableau[i] = tab[sizemove];
+		tableau[i] = tab[i];
 		i++;
-		sizemove--;
 
 	}
-	sizemove = 0;
-	i = size;
-	while(sizemove <= size)
+	sizemove = size
+	i = 0;
+	while(i <= size)
 	{
-		tab[sizemove] = tableau[i];
-		i--;
-		sizemove++;
+		tab[i] = tableau[sizemove];
+		printf("%d\n", tab[sizemove];
+		i++;
+		sizemove--;
 	}
-}
