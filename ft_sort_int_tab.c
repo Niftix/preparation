@@ -6,7 +6,7 @@ void ft_sort_int_tab(int *tab, int size)
 	int stock;
 	int stack;
 
-	while(i <= size -1)
+	while(i < size)
 	{
 		while(x >= i)
 		{
@@ -16,7 +16,6 @@ void ft_sort_int_tab(int *tab, int size)
 				stack = tab[x];
 				tab[i] = stack;
 				tab[x] = stock;
-				x = size;
 			}
 			x--;
 		}
